@@ -1,0 +1,24 @@
+    <div class="thumbnail">
+      <img src="https://image.tmdb.org/t/p/w300/{{item.poster_path}}">
+      <div class="caption">
+        <div>
+            <span title={{item.title}}>{{item.title}}</span>
+        </div>
+        <div>
+          <label>First Air Date:</label>
+          <span>{{item.release_date}}</span>
+        </div>
+        <p>
+          <a routerLink='/movie/{{item.id}}'>view details</a>
+          <small class="label label-success pull-right">
+            <i class="glyphicon glyphicon-star">
+                {{item.vote_average}}
+            </i>
+          </small>
+        </p>
+      </div> 
+    </div>
+    
+
+
+

@@ -1,0 +1,9 @@
+<h3 class="orange-text">分类详情{{name}}</h3>
+<div class="row is-flex">
+  <div class="col-sm-6 col-md-4 col-lg-3 col-xs-6" *ngFor="let item of arr,let i = index" >
+    <movies-card [item] = 'item'></movies-card>
+  </div>
+</div>
+
+
+
